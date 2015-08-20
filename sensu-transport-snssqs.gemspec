@@ -5,4 +5,5 @@ Gem::Specification.new do |g|
   g.authors = ''
   g.add_dependency('aws-sdk')
   g.add_dependency('eventmachine')
+  g.files = ["lib/sensu/transport/snssqs.rb"]
 end
